@@ -1,0 +1,18 @@
+{
+  "name": "que-claude-marketplace",
+  "owner": {
+    "name": "Olanna"
+  },
+  "metadata": {
+    "description": "Olanna's curated Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills-loader",
+      "source": "./plugins/claude-skills-loader",
+      "description": "Scans your project for SKILL.md files and registers them as native Claude Code skills",
+      "version": "1.0.0"
+    }
+  ]
+}

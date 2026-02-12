@@ -1,0 +1,3 @@
+# Symlinked skills are runtime-only
+plugins/claude-skills-loader/skills/*
+!plugins/claude-skills-loader/skills/.gitkeep
