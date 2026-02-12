@@ -2,7 +2,7 @@
 
 A Claude Code plugin that auto-discovers `SKILL.md` files in any project and registers them as native Claude Code skills via symlinks.
 
-Part of the **que-claude-marketplace** plugin collection by Olanna.
+Part of the **que-claude-marketplace** plugin collection by [thedammyking](https://github.com/thedammyking).
 
 ## What It Does
 

@@ -1,10 +1,10 @@
 {
   "name": "que-claude-marketplace",
   "owner": {
-    "name": "Olanna"
+    "name": "thedammyking"
   },
   "metadata": {
-    "description": "Olanna's curated Claude Code plugins",
+    "description": "Curated Claude Code plugins by thedammyking",
     "version": "1.0.0"
   },
   "plugins": [
