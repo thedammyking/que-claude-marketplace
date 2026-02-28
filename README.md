@@ -17,6 +17,7 @@ Then install any plugin from the list below.
 | Plugin | Description | Install |
 |--------|-------------|---------|
 | [claude-skills-loader](./plugins/claude-skills-loader/) | Auto-discovers `SKILL.md` files in your project and registers them as native Claude Code skills | `/plugin install claude-skills-loader@que-claude-marketplace` |
+| [prompt-optimizer](./plugins/prompt-optimizer/) | Detects ambiguous prompts and guides Claude through structured clarification | `/plugin install prompt-optimizer@que-claude-marketplace` |
 
 ## License
 

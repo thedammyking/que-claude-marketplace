@@ -1,0 +1,10 @@
+{
+  "name": "prompt-optimizer",
+  "description": "Detects ambiguous prompts and guides Claude through structured clarification to improve response quality",
+  "version": "1.0.0",
+  "author": {
+    "name": "thedammyking"
+  },
+  "license": "MIT",
+  "keywords": ["prompt-optimization", "clarification", "ambiguity-detection", "prompt-quality"]
+}
