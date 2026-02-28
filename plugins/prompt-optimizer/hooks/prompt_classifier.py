@@ -99,10 +99,10 @@ def main():
             "hookSpecificOutput": {
                 "hookEventName": "UserPromptSubmit",
                 "additionalContext": (
-                    "[prompt-optimizer] The user's prompt may be ambiguous. "
-                    "Before proceeding, use the prompt-optimizer skill "
-                    "to classify the ambiguity and ask a targeted clarifying "
-                    "question using the AskUserQuestion tool."
+                    "CRITICAL: [prompt-optimizer] This prompt is ambiguous. "
+                    "You MUST invoke the Skill tool with skill: \"prompt-optimizer\" "
+                    "BEFORE generating any other response. "
+                    "Do NOT attempt to answer the user's request directly."
                 ),
             }
         }

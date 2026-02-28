@@ -1,9 +1,10 @@
 ---
 name: prompt-optimizer
 description: >-
-  Optimizes ambiguous user prompts through structured clarification.
-  This skill should be used when a prompt is flagged as ambiguous by the
-  prompt-optimizer hook ([prompt-optimizer] tag), when the user asks to
+  MUST be invoked via the Skill tool when a CRITICAL [prompt-optimizer]
+  system reminder is present. This is a BLOCKING REQUIREMENT: invoke this
+  skill BEFORE generating any other response to the user. Also invoke when
+  the user asks to
   "optimize my prompt", "clarify my request", "what do you need to know",
   or when multiple plausible interpretations would lead to substantially
   different responses. Classifies ambiguity type, generates interpretations,
