@@ -13,6 +13,12 @@
       "source": "./plugins/claude-skills-loader",
       "description": "Scans your project for SKILL.md files and registers them as native Claude Code skills",
       "version": "1.0.0"
+    },
+    {
+      "name": "prompt-optimizer",
+      "source": "./plugins/prompt-optimizer",
+      "description": "Detects ambiguous prompts and guides Claude through structured clarification to improve response quality",
+      "version": "1.0.0"
     }
   ]
 }
