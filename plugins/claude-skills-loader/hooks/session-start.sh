@@ -24,6 +24,14 @@ mkdir -p "$SKILLS_DIR"
 # Clean old symlinks (only symlinks, never real files/dirs)
 find "$SKILLS_DIR" -maxdepth 1 -type l -delete
 
+# Clean self-referencing symlinks inside project skill dirs
+# (left by previous runs that used ln -sf instead of ln -sfn on macOS)
+for skill_md in $(find "$PROJECT_ROOT" -maxdepth 6 -name "SKILL.md" -type f 2>/dev/null | grep -vE "/(${EXCLUDE_DIRS})/" || true); do
+    _sdir="$(dirname "$skill_md")"
+    _sname="$(basename "$_sdir")"
+    [ -L "${_sdir}/${_sname}" ] && rm -f "${_sdir}/${_sname}"
+done
+
 # ── I2 fix: exclude the plugin's own skills directory ──
 # Resolve SKILLS_DIR to an absolute path for reliable exclusion.
 # Also exclude common noise directories via grep.
@@ -76,7 +84,7 @@ for skill_file in "${skill_files[@]}"; do
         link_name="$skill_name"
     fi
 
-    ln -sf "$skill_dir" "${SKILLS_DIR}/${link_name}"
+    ln -sfn "$skill_dir" "${SKILLS_DIR}/${link_name}"
 done
 
 exit 0
