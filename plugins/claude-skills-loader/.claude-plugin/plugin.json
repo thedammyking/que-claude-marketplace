@@ -1,7 +1,7 @@
 {
   "name": "claude-skills-loader",
   "description": "Scans your project for SKILL.md files and registers them as native Claude Code skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "thedammyking"
   },
