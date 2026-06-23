@@ -17,7 +17,8 @@ Then install any plugin from the list below.
 | Plugin | Description | Install |
 |--------|-------------|---------|
 | [claude-skills-loader](./plugins/claude-skills-loader/) | Auto-discovers `SKILL.md` files in your project and registers them as native Claude Code skills | `/plugin install claude-skills-loader@que-claude-marketplace` |
+| [xquik-x-data](./plugins/xquik-x-data/) | Adds a source-truth skill for X/Twitter public data workflows with Xquik REST API and MCP docs | `/plugin install xquik-x-data@que-claude-marketplace` |
 
 ## License
 
-MIT -- see [LICENSE](./LICENSE).
+MIT - see [LICENSE](./LICENSE).
