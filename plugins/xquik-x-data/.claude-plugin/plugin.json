@@ -1,0 +1,17 @@
+{
+  "name": "xquik-x-data",
+  "description": "Adds a source-truth skill for X/Twitter public data workflows with Xquik REST API and MCP docs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Xquik-dev"
+  },
+  "license": "MIT",
+  "keywords": [
+    "xquik",
+    "x",
+    "twitter",
+    "mcp",
+    "api",
+    "public-data"
+  ]
+}

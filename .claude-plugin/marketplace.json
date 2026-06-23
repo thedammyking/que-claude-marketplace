@@ -15,6 +15,12 @@
       "version": "1.0.0"
     },
     {
+      "name": "xquik-x-data",
+      "source": "./plugins/xquik-x-data",
+      "description": "Adds a source-truth skill for X/Twitter public data workflows with Xquik REST API and MCP docs",
+      "version": "1.0.0"
+    },
+    {
       "name": "prompt-optimizer",
       "source": "./plugins/prompt-optimizer",
       "description": "Detects ambiguous prompts and guides Claude through structured clarification to improve response quality",
